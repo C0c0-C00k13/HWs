@@ -55,7 +55,7 @@ div#Tab a:hover {
 div#Tab a span  {
     /*Disposition des images*/
     
-    display: block;
+    display: none; /**/
     position : absolute;
     top : 200px;
     margin : auto;
@@ -65,14 +65,13 @@ div#Tab a span  {
     height : 500px;
     z-index : -1;  /**/
     background-color:white;
-    opacity: 0;
 }
 
 /*sélection d'images?*/
 div#Tab a:hover span {
 
     z-index : 1;
-    opacity: 1;
+    display: block; /**/
 
 }
 /*régulation des petites images*/
